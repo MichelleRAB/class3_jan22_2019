@@ -14,3 +14,15 @@ def test_three_and_three():
     If given 3 and 3, 6 should be returned
     """
     assert add(3, 3) == 6
+
+def test_no_parameters():
+    """
+    If given no params, 0 should be returned
+    """
+    assert add() ==  0
+
+def test_one_two_three():
+    """
+    If given 1, 2 and 3, 6 should be returned
+    """
+    assert add(1, 2, 3) == 6
